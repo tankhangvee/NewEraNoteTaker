@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".JSONTUTORIAL">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp">
+
+        <Button
+            android:id="@+id/btngn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Name"/>
+
+        <Button
+            android:id="@+id/btngc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Course"/>
+
+        <Button
+            android:id="@+id/btnga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Age"/>
+
+        <Button
+            android:id="@+id/btnb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Book"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Library ID"/>
+
+        <Button
+            android:id="@+id/btnbb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get BorrowedBook"/>
+
+        <Button
+            android:id="@+id/btns"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Friend Info"/>
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Your Data Here"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"/>
+
+</LinearLayout>
